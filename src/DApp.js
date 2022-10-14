@@ -171,9 +171,11 @@ function DApp(props) {
           </label>
         </form>
         <button type="button" className="button" onClick={onButtonClickMeta}>Paided</button>
+        {!enter[2] && <h3 > Don't Pay there is no Eth locked in protocol
+        </h3>}
         <br />
         <br />
-        {transactionHash && <div><p>Transaction successfully</p>
+        {transactionHash && <div><p>Order placed  successfully</p>
           <p>Hash</p>
           <p>{transactionHash}</p></div>}
 
