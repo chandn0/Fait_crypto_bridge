@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
 import { ethers } from "ethers";
-import { getledger } from './Funcations';
 import Ordercard from './Ordercard';
 import abi from "./abi.json";
 import Web3 from "web3";
