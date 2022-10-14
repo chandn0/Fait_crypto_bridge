@@ -1,0 +1,149 @@
+.App {}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo {
+  position: absolute;
+  width: 49px;
+  height: 24px;
+  left: 47px;
+  top: 49px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.connectwallet {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 16px;
+  gap: 8px;
+
+  position: absolute;
+  width: 176px;
+  height: 40px;
+  left: 85%;
+  top: 51px;
+
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.title {
+  position: absolute;
+  width: 80%;
+  height: 58px;
+  left: 108px;
+  top: 150px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 58px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.paragraph {
+  position: absolute;
+  width: 414px;
+  height: 60px;
+  left: 108px;
+  top: 310px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+
+  color: #000000;
+}
+
+.lanchApp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 12px;
+
+  position: absolute;
+  width: 179px;
+  height: 40px;
+  left: 108px;
+  top: 410px;
+
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.working {
+  position: absolute;
+  width: 60%;
+  height: 24px;
+  left: 345px;
+  top: 500px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.orders {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.DApp {
+  width: 40%;
+  margin: auto;
+}
