@@ -10,3 +10,5 @@ Frontend is build using react.
 The smar contract is meta transaction enabled so the users with nocrypto can use the application.
 
 Meta transaction are enabled by using https://biconomy.io and EIP721 standards.
+
+Smart contracts are in the Contracts (https://github.com/chandn0/Fait_crypto_bridge/tree/main/Contracts) folder
