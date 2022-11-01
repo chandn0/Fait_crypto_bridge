@@ -4,7 +4,8 @@ import { Routes, Route } from "react-router-dom";
 import Orders from './Orders';
 import './App.css';
 import DApp from './DApp';
-
+import Custommeta from './Custommeta';
+import Permethod from './Permethod';
 
 function App() {
 
@@ -16,6 +17,9 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/orders/id" element={<DApp />} />
+                <Route path="/cust" element={<Custommeta />} />
+                <Route path="/p" element={<Permethod />} />
+
             </Routes>
         </div>
     );
